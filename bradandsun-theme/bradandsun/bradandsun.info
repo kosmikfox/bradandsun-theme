@@ -3,3 +3,8 @@ description = "Website for Brad and Sun"
 core = 7.x
 
 php = 5.3.0
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/main.css
+
+
