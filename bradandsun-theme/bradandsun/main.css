@@ -38,6 +38,7 @@ a {
 .front-page-name-box {
 	z-index: 100;
 	background-color: white;
+	font-family: "Sacramento", Helvetica, sans-serif;
 	width: 300px;
 	height: 120px;
 	position: absolute;
@@ -47,3 +48,27 @@ a {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
+
+.front-page-site-name {
+	font-size: 1.2em;
+}
+
+.front-page-site-slogan {
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
