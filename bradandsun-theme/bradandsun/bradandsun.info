@@ -4,8 +4,8 @@ core = 7.x
 
 php = 5.3.0
 
-stylesheets[all][] = css/normalize.css
-stylesheets[all][] = css/main.css
+stylesheets[all][] = normalize.css
+stylesheets[all][] = main.css
 
 
 regions[content] = Content
