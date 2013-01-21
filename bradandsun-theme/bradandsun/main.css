@@ -39,7 +39,7 @@ a {
 .front-page-name-box {
 	z-index: 100;
 	background-color: white;
-	font-family: "Sacramento", Helvetica, sans-serif;
+	font-family: 'Sacramento', Helvetica, sans-serif;
 	width: 260px;
 	height: 90px;
 	padding: 10px;
@@ -62,7 +62,10 @@ a {
 	text-align: center;
 }
 
-
+.title {
+	font-family: 'Happy Monkey', Helvetica, sans-serif;
+	font-size: 1.2em;
+}
 
 
 
