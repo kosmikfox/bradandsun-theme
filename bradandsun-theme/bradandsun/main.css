@@ -44,9 +44,9 @@ a {
 	position: absolute;
 	left: 50px;
 	top: 50px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 
 .front-page-site-name {
