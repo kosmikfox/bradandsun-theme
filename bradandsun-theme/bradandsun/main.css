@@ -33,6 +33,7 @@ a {
 	height: 450px;
 	background-color: white; /* fallback olor */
 	background-image: url(images/front-page.png);
+	position: relative;
 }
 
 .front-page-name-box {
