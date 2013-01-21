@@ -4,4 +4,17 @@ html, body {
 	width: 100%;
 }
 
+body {
+	background-color: blue;
+}
 
+.page-container {
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+
+.front-page-name-box {
+	background-image: url(images/front-page.png);
+}
