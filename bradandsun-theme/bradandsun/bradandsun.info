@@ -8,3 +8,5 @@ stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/main.css
 
 
+regions[content] = Content
+regions[footer] = Footer
