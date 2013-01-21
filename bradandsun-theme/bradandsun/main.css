@@ -40,7 +40,7 @@ a {
 	background-color: white;
 	font-family: "Sacramento", Helvetica, sans-serif;
 	width: 260px;
-	height: 100px;
+	height: 90px;
 	padding: 10px;
 	position: absolute;
 	left: 50px;
@@ -56,7 +56,7 @@ a {
 }
 
 .front-page-site-slogan {
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 
