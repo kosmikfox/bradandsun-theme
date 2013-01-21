@@ -8,6 +8,10 @@ body {
 	background-color: #0C0C42;
 }
 
+a {
+	text-decoration: none;
+}
+
 .centered {
 	margin-right: auto;
 	margin-left: auto;
