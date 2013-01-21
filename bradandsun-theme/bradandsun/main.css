@@ -9,10 +9,11 @@ body {
 }
 
 .page-container {
-	width: 960px;
+	width: 970px;
 	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 5px;
 	background-color:white;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
