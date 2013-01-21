@@ -39,8 +39,9 @@ a {
 	z-index: 100;
 	background-color: white;
 	font-family: "Sacramento", Helvetica, sans-serif;
-	width: 300px;
-	height: 120px;
+	width: 260px;
+	height: 100px;
+	padding: 10px;
 	position: absolute;
 	left: 50px;
 	top: 50px;
