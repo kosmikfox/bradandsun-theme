@@ -121,7 +121,6 @@
                     'id' => 'main-menu'
                     , 'class' => array('links', 'inline', 'clearfix')
                   )
-                  , 'heading' => t('Main menu')
                 )
               );
           ?>
