@@ -79,7 +79,7 @@
       <div class="front-page-top centered">
         <div class="front-page-name-box">
           <?php if($site_name) :?>
-            <div class="front-page-site-name">
+            <div class="front-page-site-name centered">
               <a href="<?php print $front_page;?>"><?php print $site_name;?></a>
             </div>
           <?php endif;?>
