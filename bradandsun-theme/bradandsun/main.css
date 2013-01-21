@@ -8,11 +8,15 @@ body {
 	background-color: #0C0C42;
 }
 
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .page-container {
 	width: 970px;
 	margin-top: 20px;
-	margin-right: auto;
-	margin-left: auto;
+
 	padding: 5px;
 	background-color:white;
 	-moz-border-radius: 5px;
@@ -25,5 +29,4 @@ body {
 	height: 450px;
 	background-color: white; /* fallback olor */
 	background-image: url(images/front-page.png);
-	
 }

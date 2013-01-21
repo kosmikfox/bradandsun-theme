@@ -72,12 +72,12 @@
  * @ingroup themeable
  */
 ?>
-<div class="page-container">
-  <div class="top-container">
+<div class="page-container centered">
+  <div class="top-container centered">
     <?php if($is_front) :?>
       <!-- Front page content -->
       <div class="front-page-top">
-        <div class="front-page-name-box">
+        <div class="front-page-name-box centered">
           <?php if($site_name) :?>
             <div class="front-page-site-name">
               <a href="<?php print $front_page;?>"><?php print $site_name;?></a>
