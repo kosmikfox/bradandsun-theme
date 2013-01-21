@@ -76,8 +76,8 @@
   <div class="top-container centered">
     <?php if($is_front) :?>
       <!-- Front page content -->
-      <div class="front-page-top">
-        <div class="front-page-name-box centered">
+      <div class="front-page-top centered">
+        <div class="front-page-name-box">
           <?php if($site_name) :?>
             <div class="front-page-site-name">
               <a href="<?php print $front_page;?>"><?php print $site_name;?></a>
