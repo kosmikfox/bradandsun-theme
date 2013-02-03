@@ -82,7 +82,10 @@ a {
 	color:#00FFFF;
 }
 
-
+#main-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 
 
