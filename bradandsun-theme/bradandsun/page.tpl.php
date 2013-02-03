@@ -100,12 +100,6 @@
               <a href="<?php print $front_page;?>"><?php print $site_name;?></a>
             </div>
           <?php endif;?>
-          
-          <?php if($site_slogan):?>
-            <div class="site-slogan">
-              <?php print $site_slogan;?>
-            </div>
-          <?php endif;?>
         </div>
     
     <?php endif;?>
