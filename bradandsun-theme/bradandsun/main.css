@@ -76,6 +76,7 @@ a {
 	color:white;
 	background-color: #0C0C42;
 	padding: 6px;
+	white-space: nowrap;
 }
 
 .links a.active {
