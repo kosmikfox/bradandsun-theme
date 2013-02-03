@@ -66,6 +66,10 @@ a {
 	background-color: #0C0C42;
 }
 
+.links a.active {
+	color:#00FFFF;
+}
+
 
 
 
