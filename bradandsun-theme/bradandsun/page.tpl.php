@@ -113,7 +113,6 @@
     <?php if ($main_menu): ?>
       <div id="navigation">
         <div class="section">
-          <div class="centered">
           <?php
               print theme(
                 'links__system_main_menu'
@@ -125,7 +124,6 @@
                 )
               );
           ?>
-          </div>
         </div>
       </div> <!-- /.section, /#navigation -->
     <?php endif; ?>  
