@@ -57,5 +57,6 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
   <?php print $scripts; ?>
+  <script src="<?php echo $theme_path?>/main.js"></script>
 </body>
 </html>
