@@ -52,7 +52,7 @@ a {
 	text-align: center;
 }
 
-.front-page-site-name a {
+.front-page-site-name a, .site-name a {
 	color: #0C0C42;
 }
 
@@ -62,7 +62,7 @@ a {
 }
 
 .site-name {
-	font-size: 3em;
+	font-size: 2.2em;
 	font-weight: bold;
 	font-family: 'Happy Monkey', Helvetica, sans-serif;
 }
