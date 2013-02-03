@@ -37,7 +37,7 @@ a {
 .front-page-name-box {
 	z-index: 100;
 	background-color: white;
-	font-family: 'Sacramento', Helvetica, sans-serif;
+	font-family: 'Happy Monkey', Helvetica, sans-serif;
 	width: 260px;
 	height: 90px;
 	padding: 10px;
@@ -50,6 +50,7 @@ a {
 	font-size: 2.6em;
 	font-weight: bold;
 	text-align: center;
+	color: #0C0C42;
 }
 
 .front-page-site-slogan {
@@ -60,7 +61,7 @@ a {
 .site-name {
 	font-size: 3em;
 	font-weight: bold;
-	font-family: 'Sacramento', Helvetica, sans-serif;
+	font-family: 'Happy Monkey', Helvetica, sans-serif;
 }
 
 .title {

@@ -23,7 +23,6 @@
 		 * Load fonts after the initial page load
 		 * to make things appear sooner to the user
 		 */
-		loadCss('http://fonts.googleapis.com/css?family=Sacramento');
 		loadCss('http://fonts.googleapis.com/css?family=Happy+Monkey');
 	});
 })(jQuery);
