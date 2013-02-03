@@ -56,6 +56,12 @@ a {
 	text-align: center;
 }
 
+.site-name {
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Sacramento', Helvetica, sans-serif;
+}
+
 .title {
 	font-family: 'Happy Monkey', Helvetica, sans-serif;
 	font-size: 1.2em;
