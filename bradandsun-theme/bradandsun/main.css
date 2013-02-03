@@ -46,9 +46,6 @@ a {
 	position: absolute;
 	left: 50px;
 	top: 50px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
 }
 
 .front-page-site-name {
@@ -67,6 +64,10 @@ a {
 	font-size: 1.2em;
 }
 
+.links {
+	color:white;
+	background-color: blue;
+}
 
 
 
