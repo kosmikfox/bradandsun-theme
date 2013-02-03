@@ -23,9 +23,6 @@ a {
 
 	padding: 5px;
 	background-color: #F0F0F0;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
 }
 
 .front-page-top {
@@ -64,9 +61,9 @@ a {
 	font-size: 1.2em;
 }
 
-.links {
+.links a {
 	color:white;
-	background-color: blue;
+	background-color: #0C0C42;
 }
 
 
