@@ -31,6 +31,7 @@ a {
 	background-color: white; /* fallback olor */
 	background-image: url(images/front-page.png);
 	position: relative;
+	margin-top: 4px;
 }
 
 .front-page-name-box {
