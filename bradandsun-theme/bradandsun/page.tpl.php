@@ -119,7 +119,7 @@
                 , array('links' => $main_menu
                   , 'attributes' => array(
                     'id' => 'main-menu'
-                    , 'class' => array('links', 'inline')
+                    , 'class' => array('links', 'inline', 'clearfix')
                   )
                 )
               );
