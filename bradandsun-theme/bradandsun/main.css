@@ -61,6 +61,10 @@ a {
 	font-size: 1.2em;
 }
 
+#navigation {
+	margin-top: 10px;
+}
+
 .links a {
 	color:white;
 	background-color: #0C0C42;
