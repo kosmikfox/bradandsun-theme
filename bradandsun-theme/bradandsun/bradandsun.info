@@ -7,5 +7,7 @@ php = 5.3.0
 stylesheets[all][] = normalize.css
 stylesheets[all][] = main.css
 
+scripts[] = main.js
+
 regions[content] = Content
 regions[footer] = Footer
