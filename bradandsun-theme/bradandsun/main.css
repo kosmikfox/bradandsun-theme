@@ -29,7 +29,7 @@ a {
 	width: 960px;
 	height: 450px;
 	background-color: white; /* fallback olor */
-	background-image: url(images/front-page.png);
+	background-image: url(https://du6er35mqxf2o.cloudfront.net/front-page.png);
 	position: relative;
 	margin-top: 4px;
 }
