@@ -105,15 +105,15 @@
     <?php endif;?>
     
     <?php if ($main_menu): ?>
-      <div id="navigation">
-        <div class="section">
+      <div id="navigation" style="position:relative;width:100%">
+        <div class="section centered">
           <?php
               print theme(
                 'links__system_main_menu'
                 , array('links' => $main_menu
                   , 'attributes' => array(
                     'id' => 'main-menu'
-                    , 'class' => array('links', 'inline', 'centered')
+                    , 'class' => array('links', 'inline')
                   )
                 )
               );
