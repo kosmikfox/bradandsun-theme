@@ -84,7 +84,8 @@ a {
 }
 
 .links a.active {
-	color:#00FFFF;
+	color:white;
+	background-color: #ABABAB;
 }
 
 #main-wrapper {
