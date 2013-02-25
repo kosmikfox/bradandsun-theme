@@ -85,6 +85,10 @@ a {
 	margin-top: 10px;
 }
 
+#navigation .section {
+	width: 640px;
+}
+
 .links a {
 	color:white;
 	background-color: #0C0C42;
