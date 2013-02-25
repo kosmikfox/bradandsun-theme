@@ -84,8 +84,11 @@ a {
 }
 
 .links a.active {
-	color:white;
+	color: #0C0C42;
 	background-color: #ABABAB;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #main-wrapper {
