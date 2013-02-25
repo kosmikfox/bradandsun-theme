@@ -17,7 +17,7 @@
 		 */
 		$('.page-container').css('border-radius', '10px');
 		$('.front-page-name-box').css('border-radius', '15px');
-		$('.links a').css('border-radius', '8px 8px 0px 0px');
+		$('.links a').css('border-radius', '9px');
 		
 		/*
 		 * Load fonts after the initial page load
