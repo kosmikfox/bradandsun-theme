@@ -12,12 +12,13 @@
 	};
 	
 	$(document).ready(function() {
-		/*
-		 * Do some cross-browser styling
-		 */
-		$('.page-container').css('border-radius', '10px');
-		$('.front-page-name-box').css('border-radius', '15px');
-		$('.links a').css('border-radius', '9px');
+
+		$(document).on('mouseover','a',function() {
+			var selection $(this);
+			if('/wedding-party' === selection.attr('href')) {
+				selection.text('Wedding Party');
+			}
+		});
 		
 		/*
 		 * Load fonts after the initial page load
