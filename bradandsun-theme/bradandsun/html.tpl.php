@@ -48,6 +48,13 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+  <?php if($is_front) :?>
+  <style>
+  .page-container {
+    margin-top: 50px;
+  }
+  </style>
+  <?php endif;?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
