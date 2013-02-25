@@ -49,9 +49,12 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php if($is_front) :?>
+  
+  <!-- Override main page CSS -->
   <style>
   .page-container {
     margin-top: 50px;
+    width: 720px;
   }
   </style>
   <?php endif;?>
