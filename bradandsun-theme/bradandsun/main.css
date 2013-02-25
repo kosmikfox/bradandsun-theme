@@ -118,7 +118,9 @@ a {
 	padding-right: 10px;
 }
 
-
+.person-name {
+	font-weight:bold;
+}
 
 
 
