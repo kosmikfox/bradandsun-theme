@@ -62,7 +62,7 @@
     width: 720px;
   }
   </style>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+  <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/ui-lightness/jquery-ui.css" />
   <?php endif;?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
