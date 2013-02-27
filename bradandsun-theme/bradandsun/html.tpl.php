@@ -78,7 +78,9 @@
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
   <script>
     jQuery(document).ready(function() {
-      jQuery('#tabs').tabs();
+      jQuery('#tabs').tabs({
+		'show':'fold'
+      });
     });
 </script>
   <?php endif;?>
