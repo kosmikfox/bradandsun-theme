@@ -62,6 +62,7 @@
     width: 720px;
   }
   </style>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
   <?php endif;?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
@@ -72,5 +73,9 @@
   <?php print $page; ?>
   <?php print $page_bottom; ?>
   <?php print $scripts; ?>
+  
+  <?php if(! $is_front) :?>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+  <?php endif;?>
 </body>
 </html>
