@@ -62,7 +62,7 @@
     width: 720px;
   }
   </style>
-  <link rel="stylesheet" href="/jquery-ui.min.css" />
+  <link rel="stylesheet" href="<?php echo path_to_theme();?>/jquery-ui.min.css" />
   <?php endif;?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
@@ -75,7 +75,7 @@
   <?php print $scripts; ?>
   
   <?php if(! $is_front) :?>
-  <script src="/jquery-ui.min.js"></script>
+  <script src="<?php echo path_to_theme();?>/jquery-ui.min.js"></script>
   <script>
     jQuery(document).ready(function() {
       jQuery('#tabs').tabs();
