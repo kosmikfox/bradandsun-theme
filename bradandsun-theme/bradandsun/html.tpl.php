@@ -88,5 +88,8 @@
     });
 </script>
   <?php endif;?>
+  
+  <!-- TODO debugging -->
+  <?php echo $title;?>
 </body>
 </html>
