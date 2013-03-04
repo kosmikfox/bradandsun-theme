@@ -97,9 +97,6 @@
   });
 }(jQuery));
 
-    jQuery(document).ready(function() {
-      jQuery('#tabs').tabs();
-    });
 </script>
   <?php endif;?>
 </body>
