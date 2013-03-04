@@ -44,7 +44,7 @@ a {
 	font-family: 'Happy Monkey', Helvetica, sans-serif;
 	width: 260px;
 	height: 90px;
-	padding: 10px;
+	padding: 25px 10px 10px;
 	
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
