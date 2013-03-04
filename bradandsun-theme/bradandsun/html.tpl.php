@@ -81,8 +81,22 @@
   <?php print $scripts; ?>
   
   <?php if(! $is_front) :?>
-  <script src="<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.js"></script>
-  <script>
+<script>
+
+(function($) {
+  $(document).ready(function() {
+    var tabsSelection = $('#tabs');
+
+    if(tabsSelection.length) {
+      $.getScript('<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.js'
+        ,function() {
+          tabsSelection.tabs();
+        });
+    }
+    
+  });
+}(jQuery));
+
     jQuery(document).ready(function() {
       jQuery('#tabs').tabs();
     });
