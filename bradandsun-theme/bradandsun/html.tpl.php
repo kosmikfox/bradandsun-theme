@@ -112,6 +112,7 @@
         ,function() {
           slidesSelection.slides({
             'play':3000
+            ,'generatePagination':false
           });
         });
     }
