@@ -59,15 +59,26 @@
   <?php else :?>
   <link rel="stylesheet" href="<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.css" />
   <style>
-  .page-container {
-    width: 720px;
-  }
-  
-  /* UI tabs full width hack */
-  .ui-tabs .ui-tabs-nav li a {
-    padding: 0.3em 1.5em;
-  }
-  </style>
+.page-container {
+	width: 720px;
+}
+
+/* UI tabs full width hack */
+.ui-tabs .ui-tabs-nav li a {
+	padding: 0.3em 1.5em;
+}
+
+.slides_container {
+	width: 570px;
+	height: 270px;
+}
+
+.slides_container div {
+	width: 570px;
+	height: 270px;
+	display: block;
+}
+</style>
   
   <?php endif;?>
 </head>
@@ -85,7 +96,9 @@
 
 (function($) {
   $(document).ready(function() {
-    var tabsSelection = $('#tabs');
+    var tabsSelection = $('#tabs')
+    , slidesSelection = $('#slides')
+    ;
 
     if(tabsSelection.length) {
       $.getScript('<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.js'
@@ -93,7 +106,15 @@
           tabsSelection.tabs();
         });
     }
-    
+
+    if(slidesSelection.length) {
+      $.getScript('<?php echo path_to_theme();?>/slides.min.jquery.js'
+        ,function() {
+          slidesSelection.slides({
+            'play':3000
+          });
+        });
+    }
   });
 }(jQuery));
 
