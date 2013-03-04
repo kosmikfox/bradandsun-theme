@@ -54,6 +54,11 @@
   .page-container {
     margin-top: 50px;
   }
+  
+  /* UI tabs full width hack */
+  .ui-tabs .ui-tabs-nav li a {
+    padding: 0.3em 1.6em;
+  }
   </style>
   
   <?php else :?>
