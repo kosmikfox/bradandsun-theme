@@ -54,6 +54,14 @@
   .page-container {
     margin-top: 50px;
   }
+  </style>  
+  
+  <?php else :?>
+  <link rel="stylesheet" href="<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.css" />
+  <style>
+  .page-container {
+    width: 720px;
+  }
   
   /* UI tabs full width hack */
   .ui-tabs .ui-tabs-nav li a {
@@ -61,13 +69,6 @@
   }
   </style>
   
-  <?php else :?>
-  <style>
-  .page-container {
-    width: 720px;
-  }
-  </style>
-  <link rel="stylesheet" href="<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.css" />
   <?php endif;?>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
