@@ -68,9 +68,15 @@
 	padding: 0.3em 1.5em;
 }
 
+#slides {
+  position:relative;
+}
+
 .slides_container {
 	width: 570px;
 	height: 270px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .slides_container div {
