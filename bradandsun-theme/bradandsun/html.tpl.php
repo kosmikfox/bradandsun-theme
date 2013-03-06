@@ -57,7 +57,7 @@
   </style>  
   
   <?php else :?>
-  <link rel="stylesheet" href="<?php echo base_bath() . path_to_theme();?>/jquery-ui/jquery-ui.min.css" />
+  <link rel="stylesheet" href="<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.css" />
   <style>
 .page-container {
 	width: 720px;
@@ -107,14 +107,14 @@
     ;
 
     if(tabsSelection.length) {
-      $.getScript('<?php echo base_bath() . path_to_theme();?>/jquery-ui/jquery-ui.min.js'
+      $.getScript('<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.js'
         ,function() {
           tabsSelection.tabs();
         });
     }
 
     if(slidesSelection.length) {
-      $.getScript('<?php echo base_bath() . path_to_theme();?>/slides.min.jquery.js'
+      $.getScript('<?php echo path_to_theme();?>/slides.min.jquery.js'
         ,function() {
           slidesSelection.slides({
             'play':3000
