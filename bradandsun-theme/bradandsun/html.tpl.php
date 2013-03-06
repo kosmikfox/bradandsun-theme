@@ -57,7 +57,7 @@
   </style>  
   
   <?php else :?>
-  <link rel="stylesheet" href="<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.css" />
+  <link rel="stylesheet" href="/<?php echo path_to_theme();?>/jquery-ui/jquery-ui.min.css" />
   <style>
 .page-container {
 	width: 720px;
